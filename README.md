@@ -27,6 +27,7 @@ Dataset includes information about ~2,800 subscribers from September 2022 throug
 
 
 **Summary**
+![dashboard](images/mavenflix_dashboard1.PNG)
 
 Overview of Findings:
 
