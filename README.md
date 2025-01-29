@@ -42,7 +42,7 @@ Retention is also a concern, as more than half of the users cancel their subscri
 
 Based on the uncovered insights, the following recommendations have been provided:
 
-• **Conducting a user suvery** would help identify the reason behind the high cancellation rate.<br/>
+• **Conducting a user survey** would help identify the reason behind the high cancellation rate.<br/>
 • **Analyze competitors** to see where MavenFlix can improve its service and offer more value to its users.<br/>
 • **Consider introducing different subscription plans** for new users. Right now, there is only one option, and having more variety could help attract and retain users by giving them more choices.<br/>
 
