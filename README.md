@@ -26,6 +26,9 @@ Dataset includes information about ~2,800 subscribers from September 2022 throug
 
 ![data types](images/tableau_data_mavenflix.PNG)
 
+### ⛔ Dataset limitations:
+
+• The dataset spans from September 2022 to August 2023, limiting the ability to conduct a comprehensive seasonal analysis.
 
 ### **Summary**
 
