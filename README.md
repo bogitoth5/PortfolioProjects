@@ -17,7 +17,8 @@ Subscription records for MavenFlix, a fictitious video streaming platform. The c
 • Show total profit per months<br/>
 • Show changes in profit each months<br/>
 
-A **Tableau dashboard** can be found here. 
+A **Tableau dashboard** can be found here.<br/>
+Data Cleaning with SQL can be found [here](mavenflix_data_cleaning_sql).
 
 ### **About the data:** 
 
