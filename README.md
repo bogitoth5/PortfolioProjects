@@ -1,34 +1,34 @@
-**SQL and Tableau Projects**
+# **SQL and Tableau Projects**
 
-**Project #1 - Streaming Video Subscriptions Analysis**
+## **Project #1 - Streaming Video Subscriptions Analysis**
 
-**About the project:** 
+### **About the project:** 
 
 Subscription records for MavenFlix, a fictitious video streaming platform. The company needed data on subscription trends, how long a customer uses the platform, and what are the best and worst months. 
 
 
-Key Requirements:<br/>
-Display a summary of total number of new and churned users for each month<br/>
-Identify the months with the highest and lowest number of new/churned users<br/>
-Display the percentage of users that stays less than 5 months<br/>
-Present the duration of subsriptions<br/>
+<ins>Key Requirements:</ins><br/>
+• Display a summary of total number of new and churned users for each month<br/>
+• Identify the months with the highest and lowest number of new/churned users<br/>
+• Display the percentage of users that stays less than 5 months<br/>
+• Present the duration of subsriptions<br/>
 
-Sales Trends:<br/>
-Show total profit per months<br/>
-Show changes in profit each months<br/>
+<ins>Sales Trends:</ins><br/>
+• Show total profit per months<br/>
+• Show changes in profit each months<br/>
 
-A Tableau dashboard can be found here. 
+A **Tableau dashboard** can be found here. 
 
-**About the data:** 
+### **About the data:** 
 
 Dataset includes information about ~2,800 subscribers from September 2022 through September 2023. Each record represents an individual customer's subscription, including the subscription cost, created/canceled date, interval, and payment status. New column month_duration was created to identify the lenght of the subsription. 
 
 ![data types](images/tableau_data_mavenflix.PNG)
 
 
-**Summary**
+### **Summary**
 
-Overview of Findings:
+<ins>Overview of Findings:</ins>
 
 The data shows that MavenFlix had a higher-than-average number of new users during only a few months: early 2023 and summer 2023. In most months, the number of new subscribers stayed close to the average. However, there isn’t enough data to confirm if the increases in new users during those periods are due to seasonal trends.
 
@@ -38,7 +38,7 @@ Retention is also a concern, as more than half of the users cancel their subscri
 
 ![dashboard](images/mavenflix_dashboard1.PNG)
 
-**Recommendation**
+### **Recommendation**
 
 Based on the uncovered insights, the following recommendations have been provided:
 
