@@ -1,5 +1,8 @@
 MavenFlix - Data Cleaning in SQL
 
+QUERIES USED: UPDATE, ALTER, Window function (Row number)
+
+--------------------------------------------------------------------------------------------------------------------------
 
 ALTER TABLE mavenflix RENAME COLUMN `ď»żcustomer_id` TO `customer_ID`;
 
