@@ -1,5 +1,4 @@
-SELECT * 
-FROM mavenflix;
+MavenFlix - Data Cleaning in SQL
 
 
 ALTER TABLE mavenflix RENAME COLUMN `ď»żcustomer_id` TO `customer_ID`;
