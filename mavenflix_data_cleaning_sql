@@ -1,0 +1,38 @@
+SELECT * 
+FROM mavenflix;
+
+
+ALTER TABLE mavenflix RENAME COLUMN `ď»żcustomer_id` TO `customer_ID`;
+
+UPDATE mavenflix
+set canceled_date = null
+where canceled_date = '';
+
+SELECT * 
+FROM mavenflix
+where canceled_date = '';
+
+ALTER TABLE mavenflix modify `canceled_date` date;
+
+SELECT *, 
+	ROW_NUMBER() OVER (partition by customer_id, created_date) as row_num
+FROM mavenflix;
+
+
+WITH row_check as (
+SELECT *, 
+	ROW_NUMBER() OVER (partition by customer_id, created_date) as row_num
+FROM mavenflix)
+SELECT *
+FROM row_check
+where row_num > 1;
+
+
+DELETE FROM mavenflix
+WHERE customer_id IN (
+	SELECT customer_id
+    FROM (
+			SELECT customer_id, 
+			ROW_NUMBER() OVER (partition by customer_id, created_date) as row_num
+			FROM mavenflix) AS DUPLICATE
+where row_num > 1);
