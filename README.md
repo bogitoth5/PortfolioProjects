@@ -22,7 +22,7 @@ Data Cleaning with SQL can be found [here](mavenflix_data_cleaning_sql).
 
 ### **About the data:** 
 
-Dataset includes information about ~2,800 subscribers from September 2022 through September 2023. Each record represents an individual customer's subscription, including the subscription cost, created/canceled date, interval, and payment status. New column month_duration was created to identify the lenght of the subsription. 
+Dataset includes information about ~2,800 subscribers from September 2022 through September 2023. Each record represents an individual customer's subscription, including the subscription cost, created/canceled date, interval, and payment status. New columns such as Subscription Lenght, Subscription Lenght(String) and Over 5 months were created to identify the lenght of the subsription. 
 
 ![data types](images/tableau_data_mavenflix.PNG)
 
