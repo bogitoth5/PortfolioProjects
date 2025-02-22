@@ -48,7 +48,7 @@ Image 1: Overall analysis, with focus on the subscription duration of canceled u
 
 <ins>Analysis of Active users:</ins>
 
-MavenFlix has a low retention rate among active users, with few remaining subscribed for more than five months. The majority of active users joined within the last one or two months, and based on cancellation trends, they are likely to cancel after two months. To improve long-term retention, it is recommended to explore strategies for keeping users engaged, such as introducing rewards for continued subscription.
+MavenFlix has a low retention rate among active users, with few remaining subscribed for more than five months. The majority of active users joined within the last one or two months, and based on cancellation trends, they are likely to cancel after two months. To improve long-term retention, it is recommended to explore strategies for keeping users engaged, such as introducing rewards for continued subscription.<br/>
 The visualization below indicates that the majority of currently active users have been subscribed for **1 to 3 months**, highlighting a high proportion of new users. In contrast, the platform has a **very small number** of users who have remained subscribed for 9 months or longer.
 
 ![active](images/mavenflix_dashboard_active.PNG)
