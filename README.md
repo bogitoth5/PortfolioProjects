@@ -35,11 +35,11 @@ Dataset includes information about ~2,800 subscribers from September 2022 throug
 
 <ins>Overview of Findings:</ins>
 
-The data shows that MavenFlix had a higher-than-average number of new users during only a few months: early 2023 and summer 2023. In most months, the number of new subscribers stayed close to the average. However, there isn’t enough data to confirm if the increases in new users during those periods are due to seasonal trends.
+The data shows that MavenFlix had a higher-than-average number of new users during only a few months: **early 2023 and summer 2023**. In most months, the number of new subscribers stayed close to the average. However, there isn’t enough data to confirm if the increases in new users during those periods are due to seasonal trends.
 
 On the other hand, cancellations have been steadily rising since September 2022. Starting in February 2023, cancellations have consistently been above the average, with the highest number occurring in June 2023. This sharp increase might be due to competition, such as another service offering better features or pricing. Conducting a user survey could help identify the reasons behind this trend.
 
-Retention is also a concern, as a very high number of the users cancel their subscription before reaching five months. Only 21% of users have stayed with MavenFlix for more than five months, including currently active and already canceled users. The highest number of cancellations happens after just one or two months. This is another area that could benefit from further investigation, potentially through a user feedback survey.
+Retention is also a concern, as a very high number of the users cancel their subscription before reaching five months. **Only 21% of users** have stayed with MavenFlix for more than five months, including currently active and already canceled users. The highest number of cancellations happens **after just one or two months**. This is another area that could benefit from further investigation, potentially through a user feedback survey.
 
 ![dashboard](images/mavenflix_dashboard_canceled1.PNG)
 <p align="center">
@@ -49,7 +49,7 @@ Image 1: Overall analysis, with focus on the subscription duration of canceled u
 <ins>Analysis of Active users:</ins>
 
 MavenFlix has a low retention rate among active users, with few remaining subscribed for more than five months. The majority of active users joined within the last one or two months, and based on cancellation trends, they are likely to cancel after two months. To improve long-term retention, it is recommended to explore strategies for keeping users engaged, such as introducing rewards for continued subscription.
-The visualization below indicates that the majority of currently active users have been subscribed for 1 to 3 months, highlighting a high proportion of new users. In contrast, the platform has a very small number of users who have remained subscribed for 9 months or longer.
+The visualization below indicates that the majority of currently active users have been subscribed for **1 to 3 months**, highlighting a high proportion of new users. In contrast, the platform has a **very small number** of users who have remained subscribed for 9 months or longer.
 
 ![active](images/mavenflix_dashboard_active.PNG)
 <p align="center">
