@@ -40,7 +40,7 @@ On the other hand, cancellations have been steadily rising since September 2022.
 
 Retention is also a concern, as a very high number of the users cancel their subscription before reaching five months. Only 21% of users have stayed with MavenFlix for more than five months, including currently active and already canceled users. The highest number of cancellations happens after just one or two months. This is another area that could benefit from further investigation, potentially through a user feedback survey.
 
-![dashboard](images/mavenflix_dashboard_canceled.PNG)
+![dashboard](images/mavenflix_dashboard_canceled1.PNG)
 <p align="center">
 Image 1: Overall analysis, with focus on the subscription duration of canceled users
 </p>
