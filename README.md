@@ -1,6 +1,6 @@
 # **SQL and Tableau Projects**
 
-## **Project #1 - Streaming Video Subscriptions Analysis**
+## **Project #1 - [Streaming Video Subscriptions Analysis](MavenFlix_Analysis/README.md)**
 
 ### **About the project:** 
 
