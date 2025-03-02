@@ -65,7 +65,7 @@ Based on the uncovered insights, the following recommendations have been provide
 • **Consider introducing different subscription plans** for new users. Right now, there is only one option, and having more variety could help attract and retain users by giving them more choices.<br/>
 
 
-
+## **Project #2 - Cafe Sales Analysis**
 
 
 
