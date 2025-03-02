@@ -1,4 +1,4 @@
-# **SQL and Tableau Projects**
+# **SQL and Tableau Project**
 
 ## **Project #1 - Streaming Video Subscriptions Analysis**
 
