@@ -7,7 +7,7 @@
 
 
 ## **☕Project #2 - Cafe Sales Analysis**
-  - SQL + PowerBI
+  - Excel + SQL + PowerBI
 
 
 
