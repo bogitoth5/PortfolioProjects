@@ -27,3 +27,7 @@ The dataset includes six months of sales data between January 2023 and June 2023
 
 • The dataset only spans January to June 2023, limiting the ability to perform a full-year or comprehensive seasonal analysis.<br/>
 • Each product purchased is recorded as a separate transaction, making it challenging to accurately assess the total number of customers and their corresponding spending per visit.<br/>
+
+### **Summary**
+
+<ins>Overview of Findings:</ins>
