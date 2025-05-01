@@ -27,7 +27,7 @@ Subscription records for MavenFlix, a fictitious video streaming platform. The g
 
 A **Tableau dashboard** can be found [here](https://public.tableau.com/app/profile/boglarka.toth3838/viz/mavenflix_modified/Analysis-Canceled?publish=yes)<br/>
 **Data Cleaning with SQL** can be found [here](MavenFlix_Analysis/mavenflix_data_cleaning_sql)<br/>
-**EDA in SQL** can be found [here](MavenFlix_Analysis/mavenflix_analysis_sql)
+**EDA in SQL** can be found [here](MavenFlix_Analysis/mavenflix_data_cleaning_sql)
 
 ### **About the data:** 
 
