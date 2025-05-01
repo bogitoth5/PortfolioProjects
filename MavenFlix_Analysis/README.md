@@ -1,6 +1,6 @@
-# **SQL and Tableau Project**
+# **Project #1 - Streaming Video Subscriptions Analysis**
 
-# Table of Contents
+### Table of Contents
 - [About the Project](#about-the-project)
 - [Links to Project Files](#links-to-project-files)
 - [About the Data](#about-the-data)
@@ -8,11 +8,9 @@
 - [Summary](#summary)
 - [Recommendation](#recommendation)
 
-## **Project #1 - Streaming Video Subscriptions Analysis**
-
 ### **About the project:** 
 
-Subscription records for MavenFlix, a fictitious video streaming platform. The company needed data on subscription trends, how long a customer uses the platform, and what are the best and worst months. 
+Subscription records for MavenFlix, a fictitious video streaming platform. The goal was to uncover subscription trends, how long a customer uses the platform, and what are the best and worst months, using **MySQL** and **Tableau.** 
 
 
 <ins>Key Requirements:</ins><br/>
