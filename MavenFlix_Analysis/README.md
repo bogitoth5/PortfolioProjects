@@ -3,6 +3,7 @@
 ### Table of Contents
 - [About the Project](#about-the-project)
 - [Links to Project Files](#links-to-project-files)
+- [Tools and Techniques](#tools-and-techniques)
 - [About the Data](#about-the-data)
 - [Dataset limitations](#dataset-limitations)
 - [Summary](#summary)
@@ -29,7 +30,7 @@ A **Tableau dashboard** can be found [here](https://public.tableau.com/app/profi
 **Data Cleaning with SQL** can be found [here](https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/mavenflix_data_cleaning_sql)<br/>
 **EDA in SQL** can be found [here](https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/mavenflix_analysis_sql)
 
-### **Tools & Techniques:**
+### **Tools and Techniques:**
 
 **MySQL:** Data cleaning, Common Table Expressions (CTEs), Window Functions(LAG), Date Functions, Conditional queries, handling NULL<br/>
 **Tableau:** Interactive dashboard creation (user trends, profit information)
