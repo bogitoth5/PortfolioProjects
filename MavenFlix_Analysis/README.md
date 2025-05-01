@@ -1,9 +1,7 @@
 # **SQL and Tableau Project**
 
 # Table of Contents
-- [1. About the Project](1-about-the-project)
-- [1. About the Data](1-about-the-data)
-
+- [link](about-the-data)
 
 ## **Project #1 - Streaming Video Subscriptions Analysis**
 
