@@ -29,6 +29,11 @@ A **Tableau dashboard** can be found [here](https://public.tableau.com/app/profi
 **Data Cleaning with SQL** can be found [here](https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/mavenflix_data_cleaning_sql)<br/>
 **EDA in SQL** can be found [here](https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/mavenflix_analysis_sql)
 
+### **Tools & Techniques:**
+
+**MySQL:** Data cleaning, Common Table Expressions (CTEs), Window Functions(LAG), Date Functions, Conditional queries, handling NULL<br/>
+**Tableau:** Interactive dashboard creation (user trends, profit information)
+
 ### **About the data:** 
 
 Dataset includes information about ~2,800 subscribers from September 2022 through September 2023. Each record represents an individual customer's subscription, including the subscription cost, created/canceled date, interval, and payment status. New columns such as Subscription Lenght, Subscription Lenght(String) and Over 5 months were created to identify the lenght of the subsription. 
