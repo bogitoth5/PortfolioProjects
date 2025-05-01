@@ -1,7 +1,12 @@
 # **SQL and Tableau Project**
 
 # Table of Contents
-- [link](#about-the-data)
+- [About the Project](#about-the-project)
+- [Links to Project Files](#links-to-project-files)
+- [About the Data](#about-the-data)
+- [Dataset limitations](#dataset-limitations)
+- [Summary](#summary)
+- [Recommendation](#recommendation)
 
 ## **Project #1 - Streaming Video Subscriptions Analysis**
 
@@ -32,7 +37,7 @@ Dataset includes information about ~2,800 subscribers from September 2022 throug
 
 ![data types](images/tableau_data_mavenflix.PNG)
 
-### ⛔ Dataset limitations:
+### Dataset limitations:
 
 • The dataset spans from September 2022 to August 2023, limiting the ability to conduct a comprehensive seasonal analysis.
 
