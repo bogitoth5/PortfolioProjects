@@ -1,4 +1,5 @@
-MavenFlix - Exploratory Data Analysis in SQL
+# 🎬**MavenFlix – Exploratory Data Analysis in SQL** 
+
 
 Questions:
 -- How have MavenFlix subscriptions trended over time?
