@@ -1,7 +1,7 @@
 # **Project #1 - Streaming Video Subscriptions Analysis**
 
 ### 📖 Table of Contents
-- [About the Project](#about-the-project)
+- [About the Project](#-about-the-project)
 - [Links to Project Files](#links-to-project-files)
 - [Tools and Techniques](#tools-and-techniques)
 - [About the Data](#about-the-data)
