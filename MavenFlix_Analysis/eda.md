@@ -30,28 +30,36 @@ Analysis Focus: Trend analysis, churn detection, retention rate, customer behavi
 
 **Insight:** New subscriptions peaked in early and mid-2023, with July reaching an all-time high. The lowest subscription numbers were recorded at the end of 2022. A notable decline in subscriptions occurred at the end of 2022 and again in spring 2023, with a sharp drop in August 2023 compared to July.
 
-```SELECT YEAR(created_date), MONTH(created_date), COUNT(created_date), COUNT(created_date)- LAG(COUNT(created_date)) OVER () as difference
+```
+SELECT YEAR(created_date) as year, MONTH(created_date) as month, COUNT(created_date) as total_created, COUNT(created_date)- LAG(COUNT(created_date)) OVER () as difference
 FROM mavenflix
 WHERE canceled_date IS NOT NULL
 GROUP BY YEAR(created_date), MONTH(created_date)
 ORDER BY YEAR(created_date), MONTH(created_date);
 ```
 
+<p align="center">
+  <img width="240" height="237" src="https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/images/total%20created.PNG">
+</p>
 
 ## 📉 **Cancellation Trends**
 
 Insight: Cancellations steadily increased from October 2022 through August 2023. A slight drop occurred in April and July 2023. The lowest cancellation count was in September 2022.
 
-```SELECT YEAR(canceled_date), MONTH(canceled_date), COUNT(canceled_date), COUNT(canceled_date)- LAG(COUNT(canceled_date)) OVER () as difference
+```
+SELECT YEAR(canceled_date) as year, MONTH(canceled_date) as month, COUNT(canceled_date) as total_canceled, COUNT(canceled_date)- LAG(COUNT(canceled_date)) OVER () as difference
 FROM mavenflix
 WHERE canceled_date IS NOT NULL
 GROUP BY YEAR(canceled_date), MONTH(canceled_date)
 ORDER BY YEAR(canceled_date), MONTH(canceled_date);
 ```
+<p align="center">
+  <img width="242" height="230" src="https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/images/total%20canceled.PNG">
+</p>
 
 ## 📌 **Retention – Percentage of Users Who Stayed ≥ 5 Months**
 
-This query calculates the share of users who stayed with MavenFlix for 5 or more months based on their subscription and cancellation dates.
+This query calculates the percentage of users who stayed with MavenFlix for 5 or more months based on their subscription and cancellation dates. This number is **21.23%**.
 
 How subscription length is calculated:
 - If a user has no cancellation date before September 1, 2023 (the day after the analysis period ends), they are considered active, and the duration is calculated from created_date to September 1, 2023.
@@ -102,6 +110,10 @@ GROUP BY reactivation_year, reactivation_month
 ORDER BY reactivation_year, reactivation_month;
 ```
 
+<p align="center">
+  <img width="343" height="212" src="https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/images/reactivated.PNG">
+</p>
+
 ## 🚪 **When Do Users Cancel?**
 
 Insight: Most users cancel within the first 1–4 months. Exploring early-stage user experience and retention strategies could improve long-term engagement.
@@ -121,6 +133,10 @@ FROM month_count
 GROUP BY counting_months
 ORDER BY months_before_cancel;
 ```
+
+<p align="center">
+  <img width="219" height="233" src="https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/images/months%20before%20cancel.PNG">
+</p>
 
 ## 💡 **Next Steps**
 
