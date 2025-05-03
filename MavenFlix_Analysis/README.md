@@ -1,6 +1,6 @@
 # **Project #1 - Streaming Video Subscriptions Analysis**
 
-### Table of Contents
+### 📖 Table of Contents
 - [About the Project](#about-the-project)
 - [Links to Project Files](#links-to-project-files)
 - [Tools and Techniques](#tools-and-techniques)
@@ -9,7 +9,7 @@
 - [Summary](#summary)
 - [Recommendation](#recommendation)
 
-### **About the project:** 
+### 📄 **About the project:** 
 
 Subscription records for MavenFlix, a fictitious video streaming platform. The goal was to uncover subscription trends, how long a customer uses the platform, and what are the best and worst months, using **MySQL** and **Tableau.** 
 
@@ -24,28 +24,30 @@ Subscription records for MavenFlix, a fictitious video streaming platform. The g
 • Show total profit per months<br/>
 • Show changes in profit each months<br/>
 
-### **Links to Project Files:**
+### 🔗 **Links to Project Files:**
 
 A **Tableau dashboard** can be found [here](https://public.tableau.com/app/profile/boglarka.toth3838/viz/mavenflix_modified/Analysis-Canceled?publish=yes)<br/>
 **Data Cleaning with SQL** can be found [here](https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/mavenflix_data_cleaning_sql)<br/>
 **EDA in SQL** can be found [here](https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/mavenflix_analysis_sql)
 
-### **Tools and Techniques:**
+### 🔧 **Tools and Techniques:**
 
 **MySQL:** Data cleaning, Common Table Expressions (CTEs), Window Functions(LAG), Date Functions, Conditional queries, handling NULL<br/>
 **Tableau:** Interactive dashboard creation (user trends, profit information)
 
-### **About the data:** 
+### 📋 **About the data:** 
 
 Dataset includes information about ~2,800 subscribers from September 2022 through September 2023. Each record represents an individual customer's subscription, including the subscription cost, created/canceled date, interval, and payment status. New columns such as Subscription Lenght, Subscription Lenght(String) and Over 5 months were created to identify the lenght of the subsription. 
 
-![data types](images/tableau_data_mavenflix.PNG)
+<p align="center">
+  <img width="446" height="434" src="https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/images/tableau_data_mavenflix.PNG">
+</p>
 
-### Dataset limitations:
+### ⚠️ Dataset limitations:
 
 • The dataset spans from September 2022 to August 2023, limiting the ability to conduct a comprehensive seasonal analysis.
 
-### **Summary**
+### 📊 **Summary**
 
 <ins>Overview of Findings:</ins>
 
@@ -55,9 +57,11 @@ On the other hand, cancellations have been steadily rising since September 2022.
 
 Retention is also a concern, as a very high number of the users cancel their subscription before reaching five months. **Only 21% of users** have stayed with MavenFlix for more than five months, including currently active and already canceled users. The highest number of cancellations happens **after just one or two months**. This is another area that could benefit from further investigation, potentially through a user feedback survey.
 
-![dashboard](images/mavenflix_dashboard_canceled1.PNG)
 <p align="center">
-Image 1: Overall analysis, with focus on the subscription duration of canceled users
+  <img width="1031" height="544" src="https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/images/mavenflix_dashboard_canceled1.PNG">
+</p>
+<p align="center">
+Overall analysis, with focus on the subscription duration of canceled users
 </p>
 
 <ins>Analysis of Active users:</ins>
@@ -65,12 +69,14 @@ Image 1: Overall analysis, with focus on the subscription duration of canceled u
 MavenFlix has a low retention rate among active users, with few remaining subscribed for more than five months. The majority of active users joined within the last one or two months, and based on cancellation trends, they are likely to cancel after two months. To improve long-term retention, it is recommended to explore strategies for keeping users engaged, such as introducing rewards for continued subscription.<br/>
 The visualization below indicates that the majority of currently active users have been subscribed for **1 to 3 months**, highlighting a high proportion of new users. In contrast, the platform has a **very small number** of users who have remained subscribed for 9 months or longer.
 
-![active](images/mavenflix_dashboard_active.PNG)
 <p align="center">
-Image 2: Analysis of the subscription duration of active users
+  <img width="954" height="454" src="https://github.com/bogitoth5/PortfolioProjects/blob/main/MavenFlix_Analysis/images/mavenflix_dashboard_active.PNG">
+</p>
+<p align="center">
+Analysis of the subscription duration of active users
 </p>
 
-### **Recommendation**
+### 📢 **Recommendation**
 
 Based on the uncovered insights, the following recommendations have been provided:
 
