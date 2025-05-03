@@ -124,8 +124,8 @@ ORDER BY months_before_cancel;
 
 ## 💡 **Next Steps**
 
-Correlate subscription spikes with promotional campaigns or show releases
+- Compare subscription spikes with promotional campaigns or show releases
 
-Segment churned users by content watched or usage pattern
+- Segment churned users by content watched or usage pattern
 
-Build a dashboard in Tableau or Power BI to visualize retention trends
+- Build a dashboard in Tableau or Power BI to visualize retention trends (find it [here](https://public.tableau.com/app/profile/boglarka.toth3838/viz/mavenflix_modified/Analysis-Canceled?publish=yes))
