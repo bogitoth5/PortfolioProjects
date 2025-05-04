@@ -2,7 +2,7 @@
 
 ### 📖 Table of Contents
 - [Sales Trend](#-sales-trend-analysis-january-to-june-2023)
-- [Customer Analysis](#-number-of-customers-over-time)
+- [Customer Analysis](#--customer-analysis)
 - [Sales Trend](#-sales-revenue-trends)
 - [Monthly Profit](#-monthly-profit)
 - [Daily Sales](#-daily-sales-analysis)
@@ -27,7 +27,7 @@ The goal is to understand how sales have changed from January to June 2023 at Ma
 
 
 
-### 🧍‍♂️🧍‍♀️ **Number of Customers Over Time**
+### 🧍‍♂️🧍‍♀️ **Customer Analysis**
 
 The number of customers visiting the cafe each month was counted based on the time of their transactions. The number of customers increased steadily from January to June with June being the busiest month with the highest number of unique transactions — almost twice as many as January. This shows the café was getting more and more popular over time.
 
