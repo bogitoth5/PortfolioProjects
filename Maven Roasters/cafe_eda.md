@@ -5,8 +5,8 @@
 - [Customer Analysis](#-number-of-customers-over-time)
 - [Sales Trend](#-sales-revenue-trends)
 - [Monthly Profit](#-monthly-profit)
-- [DAily Sales](#-daily-sales-analysis)
-- [Business REcommendations](#-business-implications)
+- [Daily Sales](#-daily-sales-analysis)
+- [Business Recommendations](#-business-implications)
 
 ## 📈 **Sales Trend Analysis: January to June 2023**
 
