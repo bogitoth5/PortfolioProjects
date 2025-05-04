@@ -1,6 +1,15 @@
 # **Maven Roasters - Exploratory Data Analysis in MySQL**
 
-## 📈 **Sales Trend Analysis: January to June 2023 – Maven Roasters**
+### 📖 Table of Contents
+- [Sales Trend](#-sales-trend-analysis-january-to-june-2023)
+- [Links to Project Files](#-links-to-project-files)
+- [Tools and Techniques](#-tools-and-techniques)
+- [About the Data](#-about-the-data)
+- [Dataset limitations](#-dataset-limitations)
+- [Summary](#-summary)
+- [Recommendation](#-recommendation)
+
+## 📈 **Sales Trend Analysis: January to June 2023**
 
 🔍 **Objective**
 
