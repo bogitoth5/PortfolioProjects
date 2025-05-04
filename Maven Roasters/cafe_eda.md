@@ -54,3 +54,79 @@ Just like income and customer count, June was the most profitable month, with pr
 
 - June was the peak month in terms of both revenue and profitability.
 
+
+
+
+# **📊 Day-of-Week Sales Analysis**
+
+✅ **Goal**
+The aim of this analysis was to identify which days bring in the most customers and revenue for Maven Roasters and uncover why that might be the case.
+
+🧮 **Data Used**
+
+To answer this, I analyzed the following metrics from the sales data:
+
+- Total number of customers per day
+
+- Total sales volume (items sold)
+
+- Total revenue and profit per day
+
+- Average Order Value (AOV) per day
+
+- Best- and worst-selling products and product categories by day
+
+- Product category contributions to AOV
+
+📈 **Key Insights**
+
+Busiest Days:
+Monday, Thursday, and Friday had the highest customer count and the most items sold. These were also the days with the highest revenue and profit.
+
+```
+SELECT day, count(distinct transaction_time) as total_customers
+FROM coffeeshop
+GROUP BY Day
+ORDER BY FIELD(day, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
+
+-- Sales per day - monday, thursday and friday has the most sold items
+SELECT day, sum(transaction_qty) as total_sold 
+FROM coffeeshop
+GROUP BY Day
+ORDER BY FIELD(day, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
+```
+
+Customer Spending Patterns:
+The Average Order Value (AOV) was fairly consistent throughout the week. Tuesday had a small increase in AOV, suggesting customers might buy slightly more expensive items or more items overall. Thursday and Saturday had the lowest AOV, likely due to fewer high-value purchases.
+
+Product Performance by Day:
+
+Top-selling items were almost always drinks like coffee, tea or drinking chocolate. Coffee beans and branded products, while not best-sellers in quantity, contributed significantly to higher AOV when purchased. These high-value items sold best on Tuesdays, which may explain the AOV increase that day. On Thursdays and Saturdays, fewer premium items were sold, leading to a dip in AOV.
+
+```
+WITH RankedSales AS (
+    SELECT 
+        day, 
+        product_detail, product_category, 
+        SUM(transaction_qty) AS total_sold,
+        RANK() OVER (PARTITION BY day ORDER BY SUM(transaction_qty) DESC) AS rank_position
+    FROM coffeeshop
+    GROUP BY day, product_detail, product_category
+)
+SELECT *
+FROM RankedSales
+WHERE rank_position <= 2
+ORDER BY FIELD(day, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY'), rank_position;
+```
+
+💡 **Business Implications**
+
+Weekday Strategy: The start and end of the workweek are peak business days. Staff and stock planning should reflect this.
+
+Revenue Boost Opportunity:
+
+Promote high-value items like coffee beans and branded goods on slower days like Thursday and Saturday.
+Example: “Weekend Special: Buy Beans, Get 10% Off a Drink”
+
+Offer Tuesday loyalty perks to reward and encourage bigger purchases.
+Example: “Buy a Large Drink, Get a Free Add-On”
