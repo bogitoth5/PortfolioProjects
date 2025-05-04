@@ -2,12 +2,11 @@
 
 ### 📖 Table of Contents
 - [Sales Trend](#-sales-trend-analysis-january-to-june-2023)
-- [Links to Project Files](#-links-to-project-files)
-- [Tools and Techniques](#-tools-and-techniques)
-- [About the Data](#-about-the-data)
-- [Dataset limitations](#-dataset-limitations)
-- [Summary](#-summary)
-- [Recommendation](#-recommendation)
+- [Customer Analysis](#-number-of-customers-over-time)
+- [Sales Trend](#-sales-revenue-trends)
+- [Monthly Profit](#-monthly-profit)
+- [DAily Sales](#-daily-sales-analysis)
+- [Business REcommendations](#-business-implications)
 
 ## 📈 **Sales Trend Analysis: January to June 2023**
 
