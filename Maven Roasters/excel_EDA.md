@@ -1,21 +1,44 @@
-🔍 Excel EDA Summary
-Tools Used: Microsoft Excel
-Techniques:
+## 📊 Excel Exploratory Data Analysis (EDA)
 
-Pivot tables for product category and time-based analysis
+**Tool Used:** Microsoft Excel</br>
+**Goal:** To help define key questions to explore later in SQL and Power BI.
 
-Basic profit calculation (Revenue - Cost)
+**Techniques:**
 
-Conditional formatting for trends
+- Pivot tables for product category and time-based analysis</br>
+- Basic profit calculation (Revenue - Cost)</br>
+- Formulas: VLOOKUP</br>
+- Conditional formatting for trends</br>
+- Charts (bar, line) to visualize sales trends, top products, etc.</br>
 
-Filtering and sorting by date/product/category
+### 📊 Dataset Overview
 
-Charts to visualize sales trends, top products, etc.
+**Period:** January to June 2023</br>
+**Columns include:** Date, Item, Category, Quantity, Unit Price, Cost</br>
+~15,000 rows of transactional data</br>
+Each row represents a product sold in a transaction</br>
 
-Key Insights:
+### 🧹 Data Cleaning
 
-Example: "Beverages made up 40% of total sales revenue."
+- Set correct data types
+- Calculated Profit = Quantity × (Unit Price - Cost)
 
-Example: "Sales dropped significantly on weekends."
 
-Example: "Product X has the highest profit margin."
+📎 [Download Excel EDA File](./CafeSales_Excel_EDA.xlsx)
+
+
+
+### 🧠 Key Analysis Techniques
+
+Used PivotTables to:
+
+- Analyze monthly revenue and profit</br>
+- Identify top-performing products and categories</br>
+- Identify busiest hours</br>
+- Created summary tables for daily, weekly, and monthly trends</br>
+- Applied conditional formatting to highlight peak sales days
+
+### 📈 Insights
+- Profit gradually increased, with the most revenue in May and June
+- Beverages had the highest sales volume and profit
+- Sales were highest on Fridays and Mondays
