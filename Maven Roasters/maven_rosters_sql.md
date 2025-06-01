@@ -172,3 +172,14 @@ JOIN TotalProfit tp
 ORDER BY profit_percentage DESC;
 ```
 
+
+**📌 Summary & Recommendations**
+
+**Steady Growth in Performance**<br/>
+The café showed a consistent upward trend in both sales volume and profit from January to June 2023, with June being the peak month. This growth may be attributed to increased customer interest or effective business strategies such as promotions or seasonal offerings. It is recommended to investigate what factors contributed to this growth to replicate success in future months.
+
+**Key Days for Sales**<br/>
+Monday, Thursday, and Friday emerged as the busiest days in terms of customer volume and total sales. These high-traffic days present an opportunity to further maximize revenue through targeted campaigns, such as limited-time offers, loyalty perks, or product bundles to encourage larger basket sizes.
+
+**Top & Underperforming Product Categories**<br/>
+The best-performing product categories are coffee, tea, drinking chocolate, and bakery items, which are the main revenue drivers. On the other hand, packaged chocolate and loose tea consistently underperform. To improve performance, the business could experiment with cross-selling strategies (e.g., pairing underperforming items with popular products), or explore seasonal packaging and promotions to boost visibility and appeal.
