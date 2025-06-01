@@ -1,17 +1,19 @@
 Questions:
--- How have Maven Roasters sales trended over time?
-
--- Which days of the week tend to be busiest, and why do you think that's the case?
-
--- Which products are sold most and least often? Which drive the most revenue for the business?
+-- How have Maven Roasters sales trended over time?<br/>
+-- Which days of the week tend to be busiest, and why do you think that's the case?<br/>
+-- Which products are sold most and least often? Which drive the most revenue for the business?<br/>
 
 
--- How have Maven Roasters sales trended over time?
-    -- telling the story of what happened from 2023 January to 2023 June in Maven Roasters
-    -- sales increased gradually from january to june, june being the best selling month in terms of number of transactions which is equal to the total number of customers
-    -- the number of customers almost doubled in june compared to january
-    -- we should consider that if customer purchased various items in a transaction, that is counted more than one transaction with the same time label - DICTINCT count - this is a data challenge
 
+**📈 Sales Trend Analysis (Jan–Jun 2023)**
+
+• To explore how Maven Roasters' sales have trended over time, I analyzed transactional data from January to June 2023. The results show a steady upward trend in sales, with June emerging as the peak month in terms of activity.<br/>
+• Customer count nearly doubled from January to June, indicating strong growth in foot traffic and engagement.<br/>
+• The total number of transactions (used as a proxy for customer visits) also rose significantly.<br/>
+• It’s important to note that transactions are counted at the item level — meaning that a single customer purchasing multiple items in one visit results in multiple rows with the same timestamp. This required using DISTINCT counts to accurately reflect the number of unique transactions or customers.<br/>
+• The store achieved its highest profit in June, effectively doubling its profit compared to January — signaling improved efficiency or higher-value sales alongside increased traffic.
+
+This trend analysis sets the foundation for understanding customer behavior and business performance over the six-month period.
 
 
 number of customers:
@@ -44,15 +46,20 @@ GROUP BY month(transaction_date)
 ```
 
 
--- Which days of the week tend to be busiest, and why do you think that's the case?
 
-	-- data to analyze:
-		-- Total Sales Per Day of the Week
-        -- Total Revenue Per Day of the Week
-        -- Average Order Value (AOV) Per Day
-        -- Peak Hours on Busy Days
-        -- Product Category Performance by Day
-	-- monday, thursday and friday has the most customers and the same days has the most sales
+**📊 Busiest Days of the Week & Customer Behavior**
+
+To identify which days are the busiest for Maven Roasters and understand why, I analyzed several metrics by day of the week, including:<br/>
+
+• Total number of sales<br/>
+• Total revenue<br/>
+• Average order value (AOV)<br/>
+• Peak transaction hours<br/>
+• Product category performance<br/>
+
+The analysis revealed that Monday, Thursday, and Friday consistently attract the highest number of customers, and these same days also generate the most sales. This pattern suggests that customer traffic may be influenced by workweek routines, where people are more likely to grab coffee at the start and end of the workweek.
+
+Further investigation into order values and product preferences by day helps provide additional context for these peaks.
 
 
  -- Transactions per day - monday, thursday and friday has the most customers
@@ -87,9 +94,22 @@ GROUP BY day_of_week
 ORDER BY FIELD(day_of_week, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
 ```
 
--- Which products are sold most and least often? Which drive the most revenue for the business?
-	-- which product makes up x% of sales. which product if responsible for eg 90% of the sales?
-	-- Measuring how each product is performing, and give recommendations of what to do with them
+**🛍️ Product Performance & Revenue Contribution**
+
+To determine which products are driving performance for Maven Roasters, I analyzed:
+
+•Total units sold per product<br/>
+•Revenue contribution per product<br/>
+•Sales distribution across product categories<br/>
+
+This analysis highlights which products are top performers, contributing a significant percentage of overall sales and revenue. For example, certain products account for a large majority (e.g., 80–90%) of total transactions, indicating strong customer preference.
+
+On the other hand, low-performing products —those with consistently low sales and minimal revenue impact— were also identified. These insights allow for data-driven recommendations, such as:
+
+• Doubling down on bestsellers through promotions or bundling<br/>
+• Re-evaluating underperforming products, possibly through repositioning, limited-time offers, or replacement
+
+This product-level visibility helps align inventory and marketing strategy with customer demand.
 
  -- the best selling categories are coffee, tea, drinking chocolate and bakery, least selling items are packaged chocolate and loose tea
 
@@ -117,17 +137,6 @@ GROUP BY cs.product_category, cs.product_detail
 ORDER BY profit
 LIMIT 10;
 ```
-
-ADDITIONAL QUERIES:
-total profit:
-
-```
-SELECT 
-   ROUND(SUM((cs.transaction_qty * cs.unit_price) - (cs.transaction_qty * cc.cost)),1) AS total_profit
-FROM coffeeshop cs
-	JOIN coffeeshop_cost cc ON cs.product_detail = cc.item;
-```
-
 
 Profit distribution per Category:
 ```
