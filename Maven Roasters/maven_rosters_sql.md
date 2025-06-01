@@ -1,7 +1,19 @@
-Questions:
--- How have Maven Roasters sales trended over time?<br/>
--- Which days of the week tend to be busiest, and why do you think that's the case?<br/>
--- Which products are sold most and least often? Which drive the most revenue for the business?<br/>
+**☕ Introduction: Exploring Sales Trends at Maven Roasters**
+
+In this exploratory data analysis (EDA), I examine sales data from Maven Roasters, a fictional café business, over a 6-month period (January–June 2023). The goal is to uncover patterns and insights that can inform business decisions and help optimize performance.
+
+This analysis focuses on three key business questions:
+
+**1. Sales Trends Over Time**<br/>
+How have sales evolved month to month? Are there seasonal or growth patterns that stand out?
+
+**2. Weekly Sales Patterns**<br/>
+Which days of the week consistently attract the most customers and generate the highest sales and revenue? What patterns emerge in customer behavior?
+
+**3. Product Performance & Revenue Drivers**<br/>
+Which products are the most and least popular? Which ones contribute most significantly to revenue, and what does that suggest for inventory and marketing strategy?
+
+By answering these questions, the analysis helps paint a clear picture of how the café is performing, where its strengths lie, and where there are opportunities for growth or optimization.
 
 
 
