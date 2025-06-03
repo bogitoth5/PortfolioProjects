@@ -19,13 +19,11 @@ By answering these questions, the analysis helps paint a clear picture of how th
 
 **📈 Sales Trend Analysis (Jan–Jun 2023)**
 
-• To explore how Maven Roasters' sales have trended over time, I analyzed transactional data from January to June 2023. The results show a steady upward trend in sales, with June emerging as the peak month in terms of activity.<br/>
+• To explore how Maven Roasters' sales have trended over time, transactional data from January to June 2023 was analyzed . The results show a steady upward trend in sales, with June as the best performing month.<br/>
 • Customer count nearly doubled from January to June, indicating strong growth in foot traffic and engagement.<br/>
-• The total number of transactions (used as a proxy for customer visits) also rose significantly.<br/>
+• The total number of transactions (used to count customer visits) also rose significantly.<br/>
 • It’s important to note that transactions are counted at the item level — meaning that a single customer purchasing multiple items in one visit results in multiple rows with the same timestamp. This required using DISTINCT counts to accurately reflect the number of unique transactions or customers.<br/>
-• The store achieved its highest profit in June, effectively doubling its profit compared to January — signaling improved efficiency or higher-value sales alongside increased traffic.
-
-This trend analysis sets the foundation for understanding customer behavior and business performance over the six-month period.
+• The store achieved its highest profit in June, effectively doubling its profit compared to January — showing improved efficiency or higher-value sales alongside increased traffic.
 
 
 number of customers:
@@ -61,7 +59,7 @@ GROUP BY month(transaction_date)
 
 **📊 Busiest Days of the Week & Customer Behavior**
 
-To identify which days are the busiest for Maven Roasters and understand why, I analyzed several metrics by day of the week, including:<br/>
+To identify which days are the busiest for Maven Roasters and understand why, the following metrics were analyzed:<br/>
 
 • Total number of sales<br/>
 • Total revenue<br/>
