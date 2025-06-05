@@ -66,8 +66,6 @@ To identify which days are the busiest for Maven Roasters and understand why, th
 
 The analysis revealed that Monday, Thursday, and Friday consistently attract the highest number of customers, and these same days also generate the most sales. This pattern suggests that customer traffic may be influenced by workweek routines, where people are more likely to grab coffee at the start and end of the workweek.
 
-Further investigation into order values and product preferences by day helps provide additional context for these peaks.
-
 
 ```
 -- Counting transactions per day:
@@ -85,12 +83,11 @@ GROUP BY Day
 ORDER BY FIELD(day, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
 ```
 
--- Average Order Value (AOV) Per Day
-	-- Tells whether some days have fewer but larger orders
-    -- The values are very close, no significant increase or drop
-    -- suggesting a consistent customer spending behavior, regardless of the day
-    -- A small increase on Tuesday might indicate a slightly higher spend per order (Customers buying more expensive items, midweek promotions?)
-    -- Thursday and Saturday have the lowest AOV - buying cheaper or fewer items
+🧾 **Average Order Value Analysis**<br/>
+
+Further analysis of average order values and product preferences by day adds context to the weekly sales patterns. The AOV remains relatively consistent throughout the week, suggesting stable customer spending behavior regardless of the day.
+
+A slight increase in AOV on Tuesdays may point to customers purchasing higher-priced items or possibly due to a midweek promotion. In contrast, Thursdays and Saturdays show slightly lower average order values, which could indicate a tendency toward smaller or less expensive purchases on those days.
 
 ```
 SELECT 
@@ -103,7 +100,7 @@ ORDER BY FIELD(day_of_week, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDA
 
 ### **🛍️ Product Performance & Revenue Contribution**
 
-To determine which products are driving performance for Maven Roasters, I analyzed:
+To determine which products are driving performance for Maven Roasters, the following metrics were analyzed:
 
 •Total units sold per product<br/>
 •Revenue contribution per product<br/>
@@ -111,7 +108,7 @@ To determine which products are driving performance for Maven Roasters, I analyz
 
 This analysis highlights which products are top performers, contributing a significant percentage of overall sales and revenue. For example, certain products account for a large majority (e.g., 80–90%) of total transactions, indicating strong customer preference.
 
-On the other hand, low-performing products —those with consistently low sales and minimal revenue impact— were also identified. These insights allow for data-driven recommendations, such as:
+On the other hand, low-performing products were also identified. These insights allow for data-driven recommendations, such as:
 
 • Doubling down on bestsellers through promotions or bundling<br/>
 • Re-evaluating underperforming products, possibly through repositioning, limited-time offers, or replacement
