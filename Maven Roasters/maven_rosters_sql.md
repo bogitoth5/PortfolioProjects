@@ -1,4 +1,4 @@
-**☕ Introduction: Exploring Sales Trends at Maven Roasters**
+# **☕ Introduction: Exploring Sales Trends at Maven Roasters**
 
 In this exploratory data analysis (EDA), I examine sales data from Maven Roasters, a fictional café business, over a 6-month period (January–June 2023). The goal is to uncover patterns and insights that can inform business decisions and help optimize performance.
 
@@ -13,21 +13,21 @@ Which days of the week consistently attract the most customers and generate the 
 **3. Product Performance & Revenue Drivers**<br/>
 Which products are the most and least popular? Which ones contribute most significantly to revenue, and what does that suggest for inventory and marketing strategy?
 
-By answering these questions, the analysis helps paint a clear picture of how the café is performing, where its strengths lie, and where there are opportunities for growth or optimization.
+By answering these questions, the analysis helps paint a clear picture of how the café is performing, what are its strengths, and where there are opportunities for growth or optimization.
 
 
+### 📈 **Sales Trend Analysis (Jan–Jun 2023)**
 
-**📈 Sales Trend Analysis (Jan–Jun 2023)**
-
-• To explore how Maven Roasters' sales have trended over time, transactional data from January to June 2023 was analyzed . The results show a steady upward trend in sales, with June as the best performing month.<br/>
+• To explore how Maven Roasters' sales have trended over time, transactional data from January to June 2023 was analyzed. The results show a steady upward trend in sales, with June as the best performing month.<br/>
 • Customer count nearly doubled from January to June, indicating strong growth in foot traffic and engagement.<br/>
-• The total number of transactions (used to count customer visits) also rose significantly.<br/>
-• It’s important to note that transactions are counted at the item level — meaning that a single customer purchasing multiple items in one visit results in multiple rows with the same timestamp. This required using DISTINCT counts to accurately reflect the number of unique transactions or customers.<br/>
-• The store achieved its highest profit in June, effectively doubling its profit compared to January — showing improved efficiency or higher-value sales alongside increased traffic.
+• The total number of transactions (used to count customer visits) also increased significantly.<br/>
+• The store achieved its highest profit in June, effectively doubling its profit compared to January — showing improved efficiency or higher-value sales alongside increased traffic.<br/>
+• It is important to note that transactions are counted at the item level — meaning that a single customer purchasing multiple items in one visit results in multiple rows with the same timestamp. This required using DISTINCT counts to accurately reflect the number of unique transactions or customers.
 
 
-number of customers:
+SQL queries used to explore this question:<br/>
 ```
+-- Counting the number of customers:
 SELECT month(transaction_date) as month,
   COUNT(distinct transaction_time) as total_customers
 FROM coffeeshop
@@ -35,19 +35,16 @@ GROUP BY month(transaction_date)
 ;
 ```
 
-monthly revenue:
--- similarly, the income gradually increased since january, june being the best selling month in terms of the income
 ```
+-- Calculating monthly revenue:
 SELECT month(transaction_date) as month, ROUND(SUM((unit_price*transaction_qty)),2) as total_income
 FROM coffeeshop
 GROUP BY month(transaction_date)
 ;
 ```
 
--- monthly profit
--- the store made the most profit in june, doubling the profit compared to january
-
 ```
+-- Calculating monthly profit:
 SELECT month(transaction_date) as month, ROUND(SUM((unit_price*transaction_qty)),2) as total_revenue, ROUND(SUM((cs.unit_price-cc.cost)*cs.transaction_qty),1) as profit
 FROM coffeeshop cs
 	JOIN coffeeshop_cost cc ON cs.product_detail = cc.item
@@ -57,7 +54,7 @@ GROUP BY month(transaction_date)
 
 
 
-**📊 Busiest Days of the Week & Customer Behavior**
+### 📊 **Busiest Days of the Week and Customer Behavior**
 
 To identify which days are the busiest for Maven Roasters and understand why, the following metrics were analyzed:<br/>
 
@@ -72,16 +69,16 @@ The analysis revealed that Monday, Thursday, and Friday consistently attract the
 Further investigation into order values and product preferences by day helps provide additional context for these peaks.
 
 
- -- Transactions per day - monday, thursday and friday has the most customers
 ```
+-- Counting transactions per day:
 SELECT day, count(distinct transaction_time) as total_customers
 FROM coffeeshop
 GROUP BY Day
 ORDER BY FIELD(day, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
 ```
 
--- Sales per day - monday, thursday and friday has the most sold items
 ```
+-- Counting sales per day
 SELECT day, sum(transaction_qty) as total_sold 
 FROM coffeeshop
 GROUP BY Day
@@ -104,7 +101,7 @@ GROUP BY day_of_week
 ORDER BY FIELD(day_of_week, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
 ```
 
-**🛍️ Product Performance & Revenue Contribution**
+### **🛍️ Product Performance & Revenue Contribution**
 
 To determine which products are driving performance for Maven Roasters, I analyzed:
 
