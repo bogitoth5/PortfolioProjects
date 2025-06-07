@@ -10,7 +10,7 @@ How have sales evolved month to month? Are there seasonal or growth patterns tha
 [**2. Weekly Sales Patterns**](#-busiest-days-of-the-week-and-customer-behavior)<br/>
 Which days of the week consistently attract the most customers and generate the highest sales and revenue? What patterns emerge in customer behavior?
 
-[**3. Product Performance & Revenue Drivers**](#-product-performance-and-revenue-contribution)<br/>
+[**3. Product Performance and Revenue Contribution**](#-product-performance-and-revenue-contribution)<br/>
 Which products are the most and least popular? Which ones contribute most significantly to revenue, and what does that suggest for inventory and marketing strategy?
 
 By answering these questions, the analysis helps paint a clear picture of how the café is performing, what are its strengths, and where there are opportunities for growth or optimization.
@@ -98,7 +98,7 @@ GROUP BY day_of_week
 ORDER BY FIELD(day_of_week, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
 ```
 
-### **🛍️ Product Performance and Revenue Contribution**
+### **☕ Product Performance and Revenue Contribution**
 
 To determine which products are driving performance for Maven Roasters, the following metrics were analyzed:
 
