@@ -196,4 +196,4 @@ The café showed a **consistent upward trend** in both sales volume and profit f
 
 **Top & Underperforming Product Categories**<br/>
 
-Coffee, tea, drinking chocolate, and bakery items are the primary drivers of sales and revenue, which aligns with the core offerings of a café. In contrast, packaged chocolate and loose tea show lower sales volumes. However, these items may not be truly underperforming, as they could serve a supplementary role in the product mix. Further analysis into profit margins and strategic intent would be beneficial to determine whether they are worth optimizing or maintaining as-is.
+Coffee, tea, drinking chocolate, and bakery items are the primary drivers of sales and revenue, which aligns with the core offerings of a café. In contrast, packaged chocolate and loose tea show lower sales volumes. However, these items may not be truly underperforming, as they could serve a supplementary role in the product mix. Further analysis into their profitability and role in the product lineup would be beneficial to determine whether they are worth optimizing or maintaining as-is.
