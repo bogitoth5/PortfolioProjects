@@ -1,0 +1,27 @@
+Purpose of the dashboard
+
+To provide answer to these 3 questions:
+1. Sales Trends Over Time
+How have sales evolved month to month? Are there seasonal or growth patterns that stand out?
+
+2. Daily Sales Patterns
+Which days of the week consistently attract the most customers and generate the highest sales and revenue? What patterns emerge in customer behavior?
+
+3. Product Performance and Revenue Contribution
+Which products are the most and least popular? Which ones contribute most significantly to revenue, and what does that suggest for inventory and marketing strategy?
+
+2 dashboards - one is for sales data and KPIs, the other shows customer behaviour
+
+Screenshot or GIF of dashboard
+
+Main KPIs shown
+
+Slicer functionality or interactivity
+- month slicer from jan to june to understand the monthly trends easier. Some of the charts shows the trend for the whole period.
+
+Color & visual choices (briefly)
+- shades of brown and green are the main colors which resembles cafe and in line with the cafe store
+
+Key business takeaways
+
+Any limitations or assumptions
