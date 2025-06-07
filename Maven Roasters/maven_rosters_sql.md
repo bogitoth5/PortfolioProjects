@@ -16,6 +16,7 @@ Which products are the most and least popular? Which ones contribute most signif
 By answering these questions, the analysis helps paint a clear picture of how the café is performing, what are its strengths, and where there are opportunities for growth or optimization.
 
 <br/>
+<br/>
 
 ### **📈 Sales Trend Analysis**
 
