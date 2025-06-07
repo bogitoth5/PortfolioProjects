@@ -15,9 +15,7 @@ Which products are the most and least popular? Which ones contribute most signif
 
 By answering these questions, the analysis helps paint a clear picture of how the café is performing, what are its strengths, and where there are opportunities for growth or optimization.
 
-
-
-
+<br/>
 
 ### **📈 Sales Trend Analysis**
 
@@ -27,6 +25,7 @@ By answering these questions, the analysis helps paint a clear picture of how th
 • The store achieved its **highest profit in June**, effectively doubling its profit compared to January. This shows improved efficiency or higher-value sales alongside increased traffic.<br/>
 • It is important to note that transactions are counted at the item level — meaning that a single customer purchasing multiple items in one visit results in multiple rows with the same timestamp. This required using DISTINCT counts to accurately reflect the number of unique transactions or customers.
 
+<br/>
 
 <ins>SQL queries used to explore this question:</ins><br/>
 ```
@@ -47,7 +46,8 @@ GROUP BY month(transaction_date)
 ;
 ```
 
-
+<br/>
+<br/>
 
 ### **📊 Busiest Days of the Week and Customer Behavior**
 
@@ -77,6 +77,7 @@ FROM coffeeshop
 GROUP BY Day
 ORDER BY FIELD(day, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
 ```
+<br/>
 
 🧾 **Average Order Value Analysis**<br/>
 
@@ -92,6 +93,8 @@ FROM coffeeshop
 GROUP BY day_of_week
 ORDER BY FIELD(day_of_week, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
 ```
+<br/>
+<br/>
 
 ### **☕ Product Performance and Revenue Contribution**
 
@@ -152,7 +155,8 @@ FROM CategoryProfit cp
 JOIN TotalProfit tp
 ORDER BY profit_percentage DESC;
 ```
-
+<br/>
+<br/>
 
 ### **📌 Summary & Recommendations**
 
