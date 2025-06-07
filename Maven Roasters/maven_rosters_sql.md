@@ -28,6 +28,8 @@ By answering these questions, the analysis helps paint a clear picture of how th
 <br/>
 
 <ins>SQL queries used to explore this question:</ins><br/>
+
+
 ```
 -- Counting the number of customers:
 SELECT month(transaction_date) as month,
@@ -37,6 +39,10 @@ GROUP BY month(transaction_date)
 ;
 ```
 
+<p align="center">
+  <img width="145" height="127" src="https://raw.githubusercontent.com/bogitoth5/PortfolioProjects/refs/heads/main/Maven%20Roasters/images_cafe/total_customers.PNG">
+</p>
+
 ```
 -- Calculating monthly revenue and profit:
 SELECT month(transaction_date) as month, ROUND(SUM((unit_price*transaction_qty)),2) as total_revenue, ROUND(SUM((cs.unit_price-cc.cost)*cs.transaction_qty),1) as profit
@@ -45,6 +51,10 @@ FROM coffeeshop cs
 GROUP BY month(transaction_date)
 ;
 ```
+
+<p align="center">
+  <img width="200" height="126" src="https://raw.githubusercontent.com/bogitoth5/PortfolioProjects/refs/heads/main/Maven%20Roasters/images_cafe/total_revenue_profit.PNG">
+</p>
 
 <br/>
 <br/>
@@ -77,6 +87,11 @@ FROM coffeeshop
 GROUP BY Day
 ORDER BY FIELD(day, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
 ```
+
+<p align="center">
+  <img width="177" height="144" src="https://raw.githubusercontent.com/bogitoth5/PortfolioProjects/refs/heads/main/Maven%20Roasters/images_cafe/total_sold.PNG">
+</p>
+
 <br/>
 
 🧾 **Average Order Value Analysis**<br/>
@@ -93,6 +108,9 @@ FROM coffeeshop
 GROUP BY day_of_week
 ORDER BY FIELD(day_of_week, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
 ```
+<p align="center">
+  <img width="197" height="145" src="https://raw.githubusercontent.com/bogitoth5/PortfolioProjects/refs/heads/main/Maven%20Roasters/images_cafe/aov.PNG">
+</p>
 <br/>
 <br/>
 
@@ -118,6 +136,10 @@ FROM coffeeshop cs
 GROUP BY cs.product_category
 ORDER BY profit desc;
 ```
+
+<p align="center">
+  <img width="386" height="184" src="https://raw.githubusercontent.com/bogitoth5/PortfolioProjects/refs/heads/main/Maven%20Roasters/images_cafe/best_items.PNG">
+</p>
 
 ```
 Identifying least selling items:
@@ -155,6 +177,10 @@ FROM CategoryProfit cp
 JOIN TotalProfit tp
 ORDER BY profit_percentage DESC;
 ```
+
+<p align="center">
+  <img width="310" height="175" src="https://raw.githubusercontent.com/bogitoth5/PortfolioProjects/refs/heads/main/Maven%20Roasters/images_cafe/profit_distri.PNG">
+</p>
 <br/>
 <br/>
 
