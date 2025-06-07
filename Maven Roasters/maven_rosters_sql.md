@@ -4,19 +4,19 @@ In this exploratory data analysis (EDA), I examine sales data from Maven Roaster
 
 This analysis focuses on three key business questions:
 
-**1. Sales Trends Over Time**<br/>
+[**1. Sales Trends Over Time**](#-sales-trend-analysis)<br/>
 How have sales evolved month to month? Are there seasonal or growth patterns that stand out?
 
-**2. Weekly Sales Patterns**<br/>
+[**2. Weekly Sales Patterns**](#-busiest-days-of-the-week-and-customer-behavior)<br/>
 Which days of the week consistently attract the most customers and generate the highest sales and revenue? What patterns emerge in customer behavior?
 
-**3. Product Performance & Revenue Drivers**<br/>
+[**3. Product Performance & Revenue Drivers**](#-product-performance-and-revenue-contribution)<br/>
 Which products are the most and least popular? Which ones contribute most significantly to revenue, and what does that suggest for inventory and marketing strategy?
 
 By answering these questions, the analysis helps paint a clear picture of how the café is performing, what are its strengths, and where there are opportunities for growth or optimization.
 
 
-### 📈 **Sales Trend Analysis (Jan–Jun 2023)**
+### **📈 Sales Trend Analysis**
 
 • To explore how Maven Roasters' sales have trended over time, transactional data from January to June 2023 was analyzed. The results show a steady upward trend in sales, with June as the best performing month.<br/>
 • Customer count nearly doubled from January to June, indicating strong growth in foot traffic and engagement.<br/>
@@ -54,7 +54,7 @@ GROUP BY month(transaction_date)
 
 
 
-### 📊 **Busiest Days of the Week and Customer Behavior**
+### **📊 Busiest Days of the Week and Customer Behavior**
 
 To identify which days are the busiest for Maven Roasters and understand why, the following metrics were analyzed:<br/>
 
@@ -98,7 +98,7 @@ GROUP BY day_of_week
 ORDER BY FIELD(day_of_week, 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY');
 ```
 
-### **🛍️ Product Performance & Revenue Contribution**
+### **🛍️ Product Performance and Revenue Contribution**
 
 To determine which products are driving performance for Maven Roasters, the following metrics were analyzed:
 
