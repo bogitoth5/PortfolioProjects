@@ -77,7 +77,7 @@ Although overall customer traffic is relatively balanced throughout the week, Mo
 
 **3. Product Performance Insights**
 
-Coffee, tea, bakery items, and drinking chocolate consistently perform the best, especially during peak hours between 8 AM and 12 PM. Coffee alone contributes around 40% of the café’s total profit, making it a key revenue driver. On the other hand, items like loose tea, branded merchandise, and flavor add-ons show lower sales volume. However, since these may serve a complementary purpose rather than being core offerings, they may not be true underperformers. Further analysis of their profitability and strategic role could help determine if any adjustments are needed.
+Coffee, tea, bakery items, and drinking chocolate consistently perform the best, especially during peak hours between 8 AM and 12 PM. Coffee alone contributes around 40% of the café’s total profit, making it a key revenue driver. On the other hand, items like loose tea, branded merchandise, and flavor add-ons show lower sales volume. However, since these may serve a supplementary purpose rather than being main offerings, they may not be true underperformers. Further analysis of their profitability and strategic role could help determine if any adjustments are needed.
 
 ## 🔍 Key Takeaways & Recommendations
 
