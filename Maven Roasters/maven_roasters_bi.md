@@ -67,13 +67,20 @@ While some charts display aggregated values over the entire period, the slicer e
 ## 🔍 Insights & Analysis
 
 
-1. Sales Trends Over Time
-  - 
+**1. Sales Trends Over Time**
+  
+Between January and June, Maven Roasters showed steady growth in both sales and profit, with June being the strongest month. Monthly averages for revenue, customers, and sales were calculated to help show whether each month performed above or below average. The café underperformed in the first quarter, but saw a noticeable increase starting in April. Key performance indicators (KPIs) are displayed to track total profit, customer count, and sales volume each month. The top revenue drivers were coffee, tea, and drinking chocolate.
 
-3. Weekly Patterns in Customer Behavior
+**2. Weekly Patterns in Customer Behavior**
 
-4. Product Performance Insights
+Although overall customer traffic is relatively balanced throughout the week, Mondays, Thursdays, and Fridays stand out with the highest number of customers and total sales. Most activity happens between 8 AM and 12 PM, indicating that visitors likely come before work or during lunchtime. Sales and foot traffic gradually decline throughout the day, reaching their lowest around 8–9 PM, close to closing time. Based on this trend, promotions during peak hours could further boost revenue, while end-of-day deals might help increase late-hour sales.
+
+**3. Product Performance Insights**
+
+Coffee, tea, bakery items, and drinking chocolate consistently perform the best, especially during peak hours between 8 AM and 12 PM. Coffee alone contributes around 40% of the café’s total profit, making it a key revenue driver. On the other hand, items like loose tea, branded merchandise, and flavor add-ons show lower sales volume. However, since these may serve a complementary purpose rather than being core offerings, they may not be true underperformers. Further analysis of their profitability and strategic role could help determine if any adjustments are needed.
 
 Key business takeaways
 
-Any limitations or assumptions
+suggestion:
+-look into the reson behind this steady growth
+
