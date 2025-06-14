@@ -48,20 +48,20 @@ Focuses on monthly trends, KPIs (revenue, profit, number of transactions), and c
 **2. Customer Behavior**
 
 Explores patterns across days of the week and product-level performance. Visuals include:
-- Bar chart for total sales by category</br>
-- Line and column chart for total customers and total sales per days of the week</br>
-- Hourly distribution of sales, revenue and number of customers</br>
+- **Bar chart** for total sales by category</br>
+- **Line and column chart** for total customers and total sales per days of the week</br>
+- **Hourly distribution** of sales, revenue and number of customers</br>
 
 ## 🎨 Design Choices & Interactivity
 
 **Color Palette**
 
-The dashboard uses warm shades of brown and green, reflecting the cozy and earthy aesthetic of a café environment. These colors are chosen to create visual harmony while keeping the focus on key metrics and trends. 
+The dashboard uses warm shades of **brown and green**, reflecting the cozy and earthy aesthetic of a cafe environment. These colors are chosen to create visual harmony while keeping the focus on key metrics and trends. 
 Additionally, green is used to indicate values above average, while red highlights below-average performance, providing a quick insight into key metrics.
 
 **Slicer Functionality**
 
-A month slicer (January to June) allows users to filter and explore trends on a monthly level. 
+A **month slicer** (January to June) allows users to filter and explore trends on a monthly level. 
 While some charts display aggregated values over the entire period, the slicer enables users to see metrics for specific months for more detailed insights.
 
 ## 🔍 Insights & Analysis
@@ -69,21 +69,21 @@ While some charts display aggregated values over the entire period, the slicer e
 
 **1. Sales Trends Over Time**
   
-Between January and June, Maven Roasters showed steady growth in both sales and profit, with June being the strongest month. Monthly averages for revenue, customers, and sales were calculated to help show whether each month performed above or below average. The café underperformed in the first quarter, but saw a noticeable increase starting in April. Key performance indicators (KPIs) are displayed to track total profit, customer count, and sales volume each month. The top revenue drivers were coffee, tea, and drinking chocolate.
+Between January and June, Maven Roasters showed **steady growth** in both sales and profit, with June being the strongest month. Monthly averages for revenue, customers, and sales were calculated to help show whether each month performed above or below average. The cafe **underperformed** in the first quarter, but saw a noticeable increase starting in April. Key performance indicators (KPIs) are displayed to track total profit, customer count, and sales volume each month. The top revenue drivers were **coffee, tea, and drinking chocolate.**
 
 **2. Weekly Patterns in Customer Behavior**
 
-Although overall customer traffic is relatively balanced throughout the week, Mondays, Thursdays, and Fridays stand out with the highest number of customers and total sales. Most activity happens between 8 AM and 12 PM, indicating that visitors likely come before work or during lunchtime. Sales and foot traffic gradually decline throughout the day, reaching their lowest around 8–9 PM, close to closing time. Based on this trend, promotions during peak hours could further boost revenue, while end-of-day deals might help increase late-hour sales.
+Although overall customer traffic is relatively balanced throughout the week, **Mondays, Thursdays, and Fridays** stand out with the highest number of customers and total sales. Most activity happens between **8 AM and 12 PM**, indicating that visitors likely come before work or during lunchtime. Sales and foot traffic gradually decline throughout the day, reaching their lowest around 8–9 PM, close to closing time. Based on this trend, promotions during peak hours could further boost revenue, while end-of-day deals might help increase late-hour sales.
 
 **3. Product Performance Insights**
 
-Coffee, tea, bakery items, and drinking chocolate consistently perform the best, especially during peak hours between 8 AM and 12 PM. Coffee alone contributes around 40% of the café’s total profit, making it a key revenue driver. On the other hand, items like loose tea, branded merchandise, and flavor add-ons show lower sales volume. However, since these may serve a supplementary purpose rather than being main offerings, they may not be true underperformers. Further analysis of their profitability and strategic role could help determine if any adjustments are needed.
+Coffee, tea, bakery items, and drinking chocolate consistently perform the best, especially during peak hours between 8 AM and 12 PM. Coffee alone contributes around **40%** of the cafe’s total profit, making it a key revenue driver. On the other hand, items like loose tea, branded merchandise, and flavor add-ons show lower sales volume. However, since these may serve a supplementary purpose rather than being main offerings, they may not be true underperformers. Further analysis of their profitability and strategic role could help determine if any adjustments are needed.
 
 ## 🔍 Key Takeaways & Recommendations
 
 **Investigate the Factors Behind Growth:**
 
-The café experienced steady sales and customer growth from January to June. Identifying the drivers of this trend — such as promotions, new products, marketing efforts, or seasonality — could help replicate and sustain growth.
+The cafe experienced steady sales and customer growth from January to June. Identifying the drivers of this trend — such as promotions, new products, marketing efforts, or seasonality — could help replicate and sustain growth.
 
 **Optimize Peak Times with Promotions:**
 
