@@ -6,7 +6,7 @@
   - Create a Tableau dashboard tracking monthly new and churned users, highlighting peak and low periods, and showing the percentage of users staying less than 5 months.
 
 
-## **☕Project #2 - Cafe Sales Analysis**
+## **☕Project #2 - [Cafe Sales Analysis](https://github.com/bogitoth5/PortfolioProjects/tree/main/Maven%20Roasters)**
   - Excel + SQL + PowerBI
 
 
