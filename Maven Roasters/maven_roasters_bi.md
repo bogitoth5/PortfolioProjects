@@ -21,7 +21,7 @@ Which days consistently attract the most customers and generate the highest reve
 Which product categories and items are driving the most revenue? Which are underutilized, and what strategic actions could be taken?
 
 <p align="center">
-  <img width="1249" height="550" src="https://raw.githubusercontent.com/bogitoth5/PortfolioProjects/refs/heads/main/Maven%20Roasters/images_cafe/cafe2.png">
+  <img width="1249" height="550" src="https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/images_cafe/cafe2.png">
 </p>
 <p align="center">
 Sales & KPI Dashboard - showing revenue, profit, and performance
