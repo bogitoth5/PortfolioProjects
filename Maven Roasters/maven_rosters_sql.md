@@ -1,6 +1,6 @@
-# **☕ Introduction: Exploring Sales Trends at Maven Roasters**
+# **☕ Exploring Sales Trends at Maven Roasters - MySQL**
 
-In this exploratory data analysis (EDA), I examine sales data from Maven Roasters, a fictional café business, over a 6-month period (January–June 2023). The goal is to uncover patterns and insights that can inform business decisions and help optimize performance.
+In this exploratory data analysis (EDA), sales data from Maven Roasters, a fictional cafe business, was explored for a 6-month period (January–June 2023). The goal is to uncover patterns and insights that can inform business decisions and help optimize performance.
 
 This analysis focuses on three key business questions:
 
