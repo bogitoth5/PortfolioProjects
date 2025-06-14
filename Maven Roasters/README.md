@@ -8,7 +8,7 @@
 [📊 Power BI Dashboard](https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/maven_roasters_bi.md)
 
 ### 📌 About the project:<br/>
-Transaction records for Maven Roasters, a fictitious coffee shop selling hot beverage and baked goods. Dataset includes the transaction date and timestamp along with product-level details, including unit price. Additional table was created with unit cost, in order to do profit calculations.
+This project explores six months of transaction records for **Maven Roasters**, a fictitious coffee shop selling hot beverage and baked goods. Dataset includes the transaction date and timestamp along with product-level details, including unit price. Additional table was created with unit cost, in order to do profit calculations.
 
 **<ins>Key Requirements:</ins>**<br/>
 •  Display a summary of Maven Roasters sales trend per month<br/>
