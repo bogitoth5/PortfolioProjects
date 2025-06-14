@@ -31,3 +31,17 @@ The dataset includes six months of sales data between January 2023 and June 2023
 ### **Summary**
 
 <ins>Overview of Findings:</ins>
+
+<p align="center">
+  <img width="1249" height="550" src="https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/images_cafe/cafe2.png">
+</p>
+<p align="center">
+Sales & KPI Dashboard - showing revenue, profit, and performance
+</p>
+
+<p align="center">
+  <img width="1249" height="550" src="https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/images_cafe/cafe1.png">
+</p>
+<p align="center">
+Customer Behavior Dashboard - analyzing sales per days of the week and product categories
+</p>
