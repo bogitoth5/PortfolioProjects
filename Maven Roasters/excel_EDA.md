@@ -24,7 +24,7 @@ Each row represents a product sold in a transaction</br>
 - Calculated Profit = Quantity × (Unit Price - Cost)
 
 
-📎 [Download Excel EDA File](./CafeSales_Excel_EDA.xlsx)
+📎 [Download Excel EDA File](https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/files/Coffee%20Shop%20Sales_project.xlsx)
 
 
 
