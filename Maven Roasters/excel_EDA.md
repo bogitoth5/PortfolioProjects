@@ -1,9 +1,17 @@
-## 📊 Excel Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA) - Microsoft Excel
 
-**Tool Used:** Microsoft Excel</br>
-**Goal:** To help define key questions to explore later in SQL and Power BI.
+This Excel analysis is an early-stage exploration of the dataset to define further questions, which were later explored in detail using **SQL and Power BI**.
 
-**Techniques:**
+### 🔗 Explore the Full Project:
+
+[SQL Analysis](https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/maven_rosters_sql.md)
+
+[Power BI Dashboard](https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/maven_roasters_bi.md)
+
+[Download Excel EDA File](https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/files/Coffee%20Shop%20Sales_project.xlsx)
+
+
+### 🛠 Techniques:
 
 - Pivot tables for product category and time-based analysis</br>
 - Basic profit calculation (Revenue - Cost)</br>
@@ -14,18 +22,16 @@
 ### 📊 Dataset Overview
 
 **Period:** January to June 2023</br>
-**Columns include:** Date, Item, Category, Quantity, Unit Price, Cost</br>
-~15,000 rows of transactional data</br>
-Each row represents a product sold in a transaction</br>
+**Columns include:**</br>
+- Date, Item, Category, Quantity, Unit Price, Cost</br>
+- 15,000 rows of transactional data</br>
+- Each row represents a product sold in a transaction</br>
 
 ### 🧹 Data Cleaning
 
 - Set correct data types
 - Calculated Profit = Quantity × (Unit Price - Cost)
-
-
-📎 [Download Excel EDA File](https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/files/Coffee%20Shop%20Sales_project.xlsx)
-
+- Calculated profit per transaction = (Quantity x Unit Price) - (Quantity x Unit Cost) 
 
 
 ### 🧠 Key Analysis Techniques
