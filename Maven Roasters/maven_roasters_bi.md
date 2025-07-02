@@ -10,7 +10,7 @@ A **Sales & KPI Dashboard** focused on revenue, profit, and performance over tim
 
 A **Customer Behavior Dashboard** analyzing patterns across days of the week and product categories.
 
-The Dashboard file can be found [here](https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/files/mavencafe.pbix)
+💾 The **Dashboard file** can be found [here](https://github.com/bogitoth5/PortfolioProjects/blob/main/Maven%20Roasters/files/mavencafe.pbix)
 
 ## 🎯 Business Questions Answered
 **1. Sales Trends Over Time**</br>
