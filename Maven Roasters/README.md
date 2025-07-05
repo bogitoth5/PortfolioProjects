@@ -31,9 +31,9 @@ The dataset includes six months of sales data between **January 2023 and June 20
 
 ### 🛠 Tools & Techniques Used:
 
-- Excel (basic analysis, pivot tables, charts)
-- MySQL (data cleaning, EDA, aggregations, CTEs)
-- PowerBI (interactive dashboards, DAX, measures, slicers)
+• Excel (basic analysis, pivot tables, charts)<br/>
+• MySQL (data cleaning, EDA, aggregations, CTEs)<br/>
+• PowerBI (interactive dashboards, DAX, measures, slicers)<br/>
 
 <br/>
 
@@ -71,3 +71,10 @@ Although overall customer traffic is relatively balanced throughout the week, **
 <p align="center">
 Customer Behavior Dashboard - analyzing sales per days of the week and product categories
 </p>
+
+### 🔍 Recommendations:
+
+
+• **Investigate the Factors Behind Growth** - Identifying the drivers of the growth — such as promotions, new products, marketing efforts, or seasonality — could help replicate and sustain growth. <br/>
+• **Analyze Low-Selling Products** - A deeper analysis of the profitability of low sales items can help decide whether to promote, bundle or remove those items.<br/>
+• **Monitor Seasonal Patterns** - As the current data covers only six months, ongoing monitoring could uncover seasonal trends in customer behavior. It is recommended to repeat this analysis in every six months in order to grow further and possibly forecast future trends.<br/>
